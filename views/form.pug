@@ -1,0 +1,10 @@
+html
+  head
+    title= title
+  body
+    h1= message
+    form(action="/form_receiver", method="post")
+      p
+        input(type="text" name="test")
+      p
+        input(type="submit")
